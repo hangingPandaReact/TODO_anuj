@@ -35,9 +35,10 @@ class Todolist extends React.Component {
           todo: "",
         });
   };
+  //   onDeleteHandler = (index) => {
 
+  //   };
   render() {
-    console.log(this.state.todo, this.state.items, "check");
     return (
       <div className="container">
         <form>
